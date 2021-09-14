@@ -6,7 +6,13 @@ sudo pacman -S bspwm rofi sxhkd polybar gnome-terminal lxappearance materia-gtk-
 
 It boots steam up at startup so you'll need that.
 
+mv ~/.config ~/.config1
+
 git clone https://github.com/rexhent/rex-bspwm ~/.config
+
+cd ~/.config1
+
+cp . ~/.config
 
 To set your resolution open arandr and set it to your preference.
 

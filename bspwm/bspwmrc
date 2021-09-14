@@ -1,8 +1,12 @@
 #! /bin/sh
 
 pgrep -x sxhkd > /dev/null || sxhkd &
+picom &
+nitrogen --restore &
 $HOME/.config/polybar/launch.sh
 bspc monitor -d I II III IV V VI VII VIII IX X
+
+xsetroot -cursor_name left_ptr &
 
 bspc config border_width         2
 bspc config window_gap          12
@@ -13,7 +17,7 @@ bspc config gapless_monocle      true
 
 bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a Chromium desktop='^4'
-bspc rule -a firefox desktop='^2'
+#bspc rule -a firefox desktop='^2'
 bspc rule -a steam desktop='^3'
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on

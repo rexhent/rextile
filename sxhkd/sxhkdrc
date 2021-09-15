@@ -17,7 +17,7 @@ super + alt + Return
 
 
 # program launcher
-super + @space
+super + p
 	rofi -show combi
 
 # make sxhkd reload its configuration files:

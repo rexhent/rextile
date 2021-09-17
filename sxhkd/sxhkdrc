@@ -15,6 +15,10 @@ super + {_,shift + }Return
 super + alt + Return
 	nautilus
 
+# xkill
+
+super + alt + l
+	xkill
 
 # program launcher
 super + p

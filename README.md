@@ -1,5 +1,7 @@
 This is my bspwm config.
 
+![Desktop](https://raw.githubusercontent.com/rexhent/wm-pics/main/bspwm.png)
+
 Arch install:
 
 sudo pacman -S bspwm rofi sxhkd polybar terminator lxappearance materia-gtk-theme papirus-icon-theme xorg-xsetroot

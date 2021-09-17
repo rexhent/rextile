@@ -8,7 +8,7 @@ super + Return
 
 # web browser
 super + {_,shift + }Return
-	firefox
+	brave
 
 # files manager
 

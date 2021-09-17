@@ -17,7 +17,7 @@ super + alt + Return
 
 # xkill
 
-super + alt + l
+super + l
 	xkill
 
 # program launcher

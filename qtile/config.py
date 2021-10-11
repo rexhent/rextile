@@ -26,13 +26,13 @@
 
 
 import os
-import re
-import socket
+# import re
+# import socket
 import subprocess
-from libqtile import qtile
+# from libqtile import qtile
 from libqtile import hook
 from typing import List  # noqa: F401
-from libqtile.command import lazy
+# from libqtile.command import lazy
 from libqtile import bar, layout, widget
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy

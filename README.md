@@ -4,13 +4,13 @@ This is my bspwm (and qtile) config.
 
 Arch install:
 
-(bspwm)
+bspwm:
 sudo pacman -S bspwm rofi sxhkd polybar terminator lxappearance materia-gtk-theme papirus-icon-theme xorg-xsetroot
 
-(qtile)
+qtile:
 sudo pacman -S qtile rofi terminator lxappearance materia-gtk-theme papirus-icon-theme xorg-xsetroot dunst nm-applet volume-icon python
 
-It boots steam up at startup so you'll need that.
+
 
 mv ~/.config ~/.config1
 

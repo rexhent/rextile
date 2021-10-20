@@ -1,13 +1,13 @@
 #!/usr/bin/env bash 
 
 # festival --tts $HOME/.config/qtile/welcome_msg &
-#lxsession &
+# lxsession &
 picom &
 # /usr/bin/emacs --daemon &
 # conky -c $HOME/.config/conky/doomone-qtile.conkyrc
 volumeicon &
 nm-applet &
-
+/usr/bin/dunst &
 ### UNCOMMENT ONLY ONE OF THE FOLLOWING THREE OPTIONS! ###
 # 1. Uncomment to restore last saved wallpaper
 # xargs xwallpaper --stretch < ~/.xwallpaper &

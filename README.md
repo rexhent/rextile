@@ -1,10 +1,14 @@
-This is my bspwm config.
+This is my bspwm (and qtile) config.
 
 ![Desktop](https://raw.githubusercontent.com/rexhent/wm-pics/main/bspwm.png)
 
 Arch install:
 
+(bspwm)
 sudo pacman -S bspwm rofi sxhkd polybar terminator lxappearance materia-gtk-theme papirus-icon-theme xorg-xsetroot
+
+(qtile)
+sudo pacman -S qtile rofi terminator lxappearance materia-gtk-theme papirus-icon-theme xorg-xsetroot dunst nm-applet volume-icon python
 
 It boots steam up at startup so you'll need that.
 

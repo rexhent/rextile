@@ -10,7 +10,7 @@ sudo pacman -S bspwm rofi sxhkd polybar terminator lxappearance materia-gtk-them
 
 qtile:
 
-sudo pacman -S qtile rofi terminator lxappearance materia-gtk-theme papirus-icon-theme xorg-xsetroot dunst nm-applet volume-icon python
+sudo pacman -S qtile rofi terminator lxappearance materia-gtk-theme papirus-icon-theme xorg-xsetroot dunst nm-applet volume-icon python gnome-polkit picom emacs
 
 
 
@@ -27,3 +27,15 @@ To set your resolution open arandr and set it to your preference.
 Export the script then edit it.
 
 Then add everything except the first line to ~/.xprofile or ~/.xinitrc
+
+Emacs install:
+
+install doom emacs
+
+then:
+
+'export PATH=$PATH:/usr/bin/emacs'
+
+configure ~/.doom.d/init.el
+
+then 'doom sync'

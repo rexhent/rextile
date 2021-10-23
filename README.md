@@ -10,7 +10,7 @@ sudo pacman -S bspwm rofi sxhkd polybar terminator lxappearance materia-gtk-them
 
 qtile:
 
-sudo pacman -S qtile rofi terminator lxappearance materia-gtk-theme papirus-icon-theme xorg-xsetroot dunst nm-applet volume-icon python gnome-polkit picom emacs
+paru -S qtile rofi terminator lxappearance materia-gtk-theme papirus-icon-theme xorg-xsetroot dunst nm-applet volume-icon python gnome-polkit picom emacs ttf-mononoki
 
 
 
@@ -20,7 +20,7 @@ git clone https://github.com/rexhent/rex-bspwm ~/.config
 
 cd ~/.config1
 
-cp . ~/.config
+cp -r . ~/.config
 
 To set your resolution open arandr and set it to your preference.
 

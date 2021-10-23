@@ -35,15 +35,20 @@ from typing import List  # noqa: F401
 # from libqtile.command import lazy
 from libqtile import bar, layout, widget
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
+from libqtile.config import Group, Match
 from libqtile.lazy import lazy
 # from libqtile.utils import guess_terminal
 from typing import List  # noqa: F401from typing import List  # noqa: F401
+from libqtile.dgroups import simple_key_binder
+
 
 mod = "mod4"
 # terminal = guess_terminal()
 my_term = "terminator"
 my_browser = "brave"
 my_launcher = "rofi -show combi -icon-theme 'Papirus' -show-icons"
+my_file_man = "nautilus"
+my_lock_screen = "i3lock -i /home/dhannah/Pictures/alena-aenami-witcher-1k.png"
 
 #
 keys = [
@@ -85,9 +90,11 @@ keys = [
     Key([mod, "shift"], "Return", lazy.layout.toggle_split(),
         desc="Toggle between split and unsplit sides of stack"),
     Key([mod], "Return", lazy.spawn(my_term), desc="Launch terminal"),
+    Key([mod, "control"], "Return", lazy.spawn(my_file_man), desc="Launch file manager"),
     Key([mod, "shift"], "r", lazy.spawn(my_browser), desc="Launch browser"),
     Key([mod], "r", lazy.spawn(my_launcher), desc="Open launcher"),
     Key([mod], "t", lazy.window.toggle_floating(), desc="Toggle floating"),
+    Key([mod], "Escape", lazy.spawn(my_lock_screen), desc="Lock the screen"),
 
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
@@ -100,7 +107,31 @@ keys = [
 
 ]
 
+
+"""
+groups = [
+    Group("1"),
+    Group("2"),
+    Group("3"),
+    Group("4"),
+    Group("5"),
+    Group("6"),
+    Group("7"),
+    Group("8"),
+    Group("9"),
+]
+"""
+# allow mod3+1 through mod3+0 to bind to groups; if you bind your groups
+# by hand in your config, you don't need to do this.
+
+dgroups_key_binder = simple_key_binder("mod3")
+
+
+
+
+
 groups = [Group(i) for i in "123456789"]
+
 
 for i in groups:
     keys.extend([
@@ -109,16 +140,17 @@ for i in groups:
             desc="Switch to group {}".format(i.name)),
 
         # mod1 + shift + letter of group = switch to & move focused window to group
-        Key([mod, "shift"], i.name, lazy.window.togroup(i.name, switch_group=True),
-            desc="Switch to & move focused window to group {}".format(i.name)),
+        #Key([mod, "shift"], i.name, lazy.window.togroup(i.name, switch_group=True),
+        #    desc="Switch to & move focused window to group {}".format(i.name)),
         # Or, use below if you prefer not to switch to that group.
         # # mod1 + shift + letter of group = move focused window to group
-        # Key([mod, "shift"], i.name, lazy.window.togroup(i.name),
-        #     desc="move focused window to group {}".format(i.name)),
+         Key([mod, "shift"], i.name, lazy.window.togroup(i.name),
+             desc="move focused window to group {}".format(i.name)),
     ])
 
+
 layouts = [
-    layout.Columns(border_focus_stack=['#d75f5f', '#8f3d3d'], border_width=4, margin = 50),
+    layout.Columns(border_focus_stack=['#d75f5f', '#8f3d3d'], border_width=4, margin = 8),
     layout.Max(),
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2),
@@ -189,6 +221,7 @@ floating_layout = layout.Floating(float_rules=[
     Match(wm_class='ssh-askpass'),  # ssh-askpass
     Match(title='branchdialog'),  # gitk
     Match(title='pinentry'),  # GPG key password entry
+    Match(title='PCSX2'),  #
 ])
 auto_fullscreen = True
 focus_on_window_activation = "smart"

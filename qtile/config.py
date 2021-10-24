@@ -46,7 +46,7 @@ mod = "mod4"
 # terminal = guess_terminal()
 my_term = "alacritty"
 my_browser = "brave"
-my_launcher = "rofi -show combi -icon-theme 'Papirus' -show-icons"
+my_launcher = "rofi -show drun -icon-theme 'Papirus' -show-icons"
 my_file_man = "nautilus"
 my_lock_screen = "i3lock -i /home/dhannah/.config/purple.png"
 

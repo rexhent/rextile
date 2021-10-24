@@ -1,6 +1,6 @@
 This is my bspwm (and qtile) config.
 
-![Desktop](https://raw.githubusercontent.com/rexhent/wm-pics/main/bspwm.png)
+![Desktop](https://raw.githubusercontent.com/rexhent/wm-pics/main/qtile2.png)
 
 Arch install:
 

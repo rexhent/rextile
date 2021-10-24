@@ -39,3 +39,5 @@ then:
 configure ~/.doom.d/init.el
 
 then 'doom sync'
+
+https://www.technocrazed.com/purple-wallpaper-background-in-hd

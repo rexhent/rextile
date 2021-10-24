@@ -44,7 +44,7 @@ from libqtile.dgroups import simple_key_binder
 
 mod = "mod4"
 # terminal = guess_terminal()
-my_term = "terminator"
+my_term = "alacritty"
 my_browser = "brave"
 my_launcher = "rofi -show combi -icon-theme 'Papirus' -show-icons"
 my_file_man = "nautilus"
@@ -166,9 +166,11 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font='mononoki',
-    fontsize=14,
-    padding=3,
+    font="Ubuntu Mono",
+    fontsize=12,
+    padding=2,
+    background=["#282a36", "#282a36"]
+
 )
 extension_defaults = widget_defaults.copy()
 
@@ -176,6 +178,7 @@ screens = [
     Screen(
         top=bar.Bar(
             [
+
                 widget.CurrentLayout(),
                 widget.GroupBox(),
                 widget.Prompt(),
@@ -193,10 +196,20 @@ screens = [
                 widget.Clock(format='%Y-%m-%d %a %I:%M %p'),
                 widget.QuickExit(),
             ],
-            24,
+            24, background=["#282a36", "#282a36"]
         ),
     ),
 ]
+
+colors = [["#282c34", "#282c34"], # panel background
+          ["#3d3f4b", "#434758"], # background for current screen tab
+          ["#ffffff", "#ffffff"], # font color for group names
+          ["#ff5555", "#ff5555"], # border line color for current tab
+          ["#74438f", "#74438f"], # border line color for 'other tabs' and color for 'odd widgets'
+          ["#4f76c7", "#4f76c7"], # color for the 'even widgets'
+          ["#e1acff", "#e1acff"], # window name
+          ["#ecbbfb", "#ecbbfb"]] # backbround for inactive screens
+
 
 # Drag floating layouts.
 mouse = [

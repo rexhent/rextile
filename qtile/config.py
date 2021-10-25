@@ -84,10 +84,11 @@ groups = [Group("WWW"),
               Group("SYS"),
               Group("VID"),
               Group("CHAT"),
-              Group("VBOX"),
+              Group("EMU"),
               Group("MUS"),
               Group("DOC"),
-              Group("GFX", {'layout': 'floating'})]
+              Group("GFX", {'layout': 'floating'}),
+              Group("VBOX"),]
 
 # Allow MODKEY+[0 through 9] to bind to groups, see https://docs.qtile.org/en/stable/manual/config/groups.html
 # MOD4 + index Number : Switch to Group[index]

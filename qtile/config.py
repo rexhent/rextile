@@ -258,7 +258,7 @@ def init_widgets_list():
                        distro = "Arch_checkupdates",
                        display_format = "{updates} Updates",
                        foreground = colors[2],
-                       mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(myTerm + ' -e sudo pacman -Syu')},
+                       mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(my_term + ' -e sudo pacman -Syu')},
                        background = colors[5]
                        ),
               widget.TextBox(
@@ -278,7 +278,7 @@ def init_widgets_list():
               widget.Memory(
                        foreground = colors[2],
                        background = colors[4],
-                       mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(myTerm + ' -e htop')},
+                       mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(my_term + ' -e htop')},
                        padding = 5
                        ),
               widget.TextBox(

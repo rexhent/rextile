@@ -137,6 +137,7 @@ widget_defaults = dict(
 )
 extension_defaults = widget_defaults.copy()
 
+
 def init_widgets_list():
     widgets_list = [
               widget.Sep(
@@ -157,8 +158,8 @@ def init_widgets_list():
                        background = colors[0]
                        ),
               widget.GroupBox(
-                       font = "Ubuntu Mono",
-                       fontsize = 14,
+                       font = "Ubuntu Bold",
+                       fontsize = 9,
                        margin_y = 3,
                        margin_x = 0,
                        padding_y = 5,
@@ -236,9 +237,9 @@ def init_widgets_list():
                        foreground = colors[2],
                        background = colors[4],
                        threshold = 90,
+                       padding = 5
                        ),
               widget.TextBox(
-                       padding = 5
                        text='',
                        background = colors[4],
                        foreground = colors[5],
@@ -257,7 +258,7 @@ def init_widgets_list():
                        distro = "Arch_checkupdates",
                        display_format = "{updates} Updates",
                        foreground = colors[2],
-                       mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(my_term + ' -e sudo pacman -Syu')},
+                       mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(myTerm + ' -e sudo pacman -Syu')},
                        background = colors[5]
                        ),
               widget.TextBox(
@@ -277,7 +278,7 @@ def init_widgets_list():
               widget.Memory(
                        foreground = colors[2],
                        background = colors[4],
-                       mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(my_term + ' -e btop')},
+                       mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(myTerm + ' -e htop')},
                        padding = 5
                        ),
               widget.TextBox(
@@ -305,9 +306,6 @@ def init_widgets_list():
                        padding = 0,
                        fontsize = 37
                        ),
-
-            
-            
               widget.CurrentLayoutIcon(
                        custom_icon_paths = [os.path.expanduser("~/.config/qtile/icons")],
                        foreground = colors[0],
@@ -315,7 +313,6 @@ def init_widgets_list():
                        padding = 0,
                        scale = 0.7
                        ),
-
               widget.CurrentLayout(
                        foreground = colors[2],
                        background = colors[4],
@@ -335,6 +332,7 @@ def init_widgets_list():
                        ),
               ]
     return widgets_list
+
 
 def init_widgets_screen1():
     widgets_screen1 = init_widgets_list()

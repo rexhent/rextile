@@ -10,7 +10,7 @@ sudo pacman -S bspwm rofi sxhkd polybar terminator lxappearance materia-gtk-them
 
 qtile:
 
-paru -S dracula-gtk-theme adobe-source-code-pro-fonts nerd-fonts-source-code-pro nerd-fonts-ubuntu-mono qtile rofi terminator lxappearance materia-gtk-theme papirus-icon-theme xorg-xsetroot dunst nm-applet volume-icon python gnome-polkit picom emacs ttf-mononoki
+paru -S dracula-gtk-theme nerd-fonts-ubuntu-mono qtile rofi terminator lxappearance papirus-icon-theme xorg-xsetroot dunst nm-applet volume-icon python gnome-polkit picom emacs i3lock xorg-xrandr arandr alacritty
 
 
 

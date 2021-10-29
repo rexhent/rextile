@@ -10,7 +10,7 @@ sudo pacman -S bspwm rofi sxhkd polybar terminator lxappearance materia-gtk-them
 
 qtile:
 
-paru -S dracula-gtk-theme nerd-fonts-ubuntu-mono qtile rofi terminator lxappearance papirus-icon-theme xorg-xsetroot dunst nm-applet volume-icon python gnome-polkit picom emacs i3lock xorg-xrandr arandr alacritty
+paru -S nitrogen dracula-gtk-theme nerd-fonts-ubuntu-mono qtile rofi terminator lxappearance papirus-icon-theme xorg-xsetroot dunst network-manager-applet volumeicon python gnome-polkit picom emacs i3lock xorg-xrandr arandr alacritty
 
 
 
@@ -34,7 +34,7 @@ install doom emacs
 
 then:
 
-'export PATH=$PATH:/usr/bin/emacs'
+'export PATH=$PATH:~/.emacs.d/bin'
 
 configure ~/.doom.d/init.el
 

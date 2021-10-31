@@ -22,7 +22,7 @@ super + l
 
 # program launcher
 super + p
-	rofi -show combi
+	rofi -show combi -icon-theme "Papirus" -show-icons
 
 # make sxhkd reload its configuration files:
 super + Escape

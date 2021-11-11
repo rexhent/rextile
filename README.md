@@ -11,7 +11,7 @@ sudo pacman -S bspwm rofi sxhkd polybar terminator lxappearance materia-gtk-them
 
 qtile:
 
-paru -S nitrogen dracula-gtk-theme nerd-fonts-ubuntu-mono qtile rofi terminator lxappearance papirus-icon-theme xorg-xsetroot dunst network-manager-applet volumeicon python gnome-polkit picom emacs i3lock xorg-xrandr arandr alacritty
+paru -S nitrogen dracula-gtk-theme nerd-fonts-ubuntu-mono qtile rofi terminator lxappearance-gtk3 papirus-icon-theme xorg-xsetroot dunst network-manager-applet volumeicon python lxsession picom emacs i3lock xorg-xrandr arandr alacritty
 
 
 

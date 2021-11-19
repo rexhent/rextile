@@ -15,7 +15,7 @@ paru -S nitrogen dracula-gtk-theme nerd-fonts-ubuntu-mono qtile rofi terminator 
 
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
-
+omf install https://github.com/dracula/fish
 
 
 mv ~/.config ~/.config1

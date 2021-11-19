@@ -1,0 +1,6 @@
+2021/11/18-17:24:37.348 e6fb Creating DB /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_gtaforums.com_0.indexeddb.leveldb since it was missing.
+2021/11/18-17:24:37.372 e6fb Reusing MANIFEST /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_gtaforums.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/18-17:25:09.359 f0af Level-0 table #5: started
+2021/11/18-17:25:09.363 f0af Level-0 table #5: 1209 bytes OK
+2021/11/18-17:25:09.372 f0af Delete type=0 #3
+2021/11/18-17:25:09.372 f0af Manual compaction at level-0 from (begin) .. (end); will stop at (end)

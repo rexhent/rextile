@@ -1,0 +1,33 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "commands": {
+      "launch": {
+         "description": "Play with MPV",
+         "suggested_key": {
+            "default": "Ctrl+Space"
+         }
+      }
+   },
+   "description": "Sends videos in pages like youtube to an external MPV player",
+   "homepage_url": "https://github.com/thann/play-with-mpv",
+   "icons": {
+      "128": "mpv-logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3k9w/J7+5UtwU29QqBEUUqJthbDHDwQbSNXuf7cS/p1wZGIqo3kt1Qt0pRXfU90Hia9c/RVJuI06hPUCfF3AMQJXefDh7YI+5p1x3kyYiEFdwMJ2EuGlhD05huwvja+4FjwvpJQCvCyBBfRCwyLwiNF62PYfdUBwbWg4ai7q9HV1chrwmZ8xmIf9q1ShcWl1o7DZiT8Tt0O9hXJ1O6k/v/RoLZzY6GJRv8WKIT612xusRVpl5Q4wMiezRuR8a/OffL8L5a44dWjCu/tC368cVYxb0ZpyLWsahlKtP8qJccIBcHWdjcdfVCj6fWsmC8KNmUk+H9aXUiO3eV7DakgUSQIDAQAB",
+   "manifest_version": 2,
+   "name": "Play with MPV",
+   "options_ui": {
+      "open_in_tab": false,
+      "page": "options.html"
+   },
+   "page_action": {
+      "default_icon": "mpv-logo.png",
+      "default_title": "Play with MPV"
+   },
+   "permissions": [ "storage", "activeTab", "contextMenus", "http://localhost/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.0"
+}

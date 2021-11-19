@@ -1,0 +1,6 @@
+2021/11/13-12:38:56.279 33bd1 Creating DB /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb since it was missing.
+2021/11/13-12:38:56.292 33bd1 Reusing MANIFEST /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/13-22:05:07.713 bd090 Level-0 table #5: started
+2021/11/13-22:05:07.715 bd090 Level-0 table #5: 2417 bytes OK
+2021/11/13-22:05:07.717 bd090 Delete type=0 #3
+2021/11/13-22:05:07.718 bd090 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,12 @@
+2021/11/19-16:52:04.801 23b4 Reusing MANIFEST /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/19-16:52:04.801 23b4 Recovering log #551
+2021/11/19-16:52:04.811 23b4 Reusing old log /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000551.log 
+2021/11/19-16:53:34.457 23b5 Level-0 table #556: started
+2021/11/19-16:53:34.496 23b5 Level-0 table #556: 1012637 bytes OK
+2021/11/19-16:53:34.500 23b5 Delete type=0 #551
+2021/11/19-16:53:55.006 2572 Compacting 1@1 + 1@2 files
+2021/11/19-16:53:55.013 2572 Generated table #557@1: 628 keys, 56184 bytes
+2021/11/19-16:53:55.013 2572 Compacted 1@1 + 1@2 files => 56184 bytes
+2021/11/19-16:53:55.016 2572 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/11/19-16:53:55.016 2572 Delete type=2 #553
+2021/11/19-16:53:55.016 2572 Delete type=2 #556

@@ -1,6 +1,15 @@
-2021/11/13-12:38:56.279 33bd1 Creating DB /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb since it was missing.
-2021/11/13-12:38:56.292 33bd1 Reusing MANIFEST /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/11/13-22:05:07.713 bd090 Level-0 table #5: started
-2021/11/13-22:05:07.715 bd090 Level-0 table #5: 2417 bytes OK
-2021/11/13-22:05:07.717 bd090 Delete type=0 #3
-2021/11/13-22:05:07.718 bd090 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/11/19-23:53:47.668 6d717 Reusing MANIFEST /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/19-23:53:47.669 6d717 Recovering log #4
+2021/11/19-23:53:47.669 6d717 Reusing old log /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/000004.log 
+2021/11/19-23:54:39.014 6f4dc Level-0 table #8: started
+2021/11/19-23:54:39.019 6f4dc Level-0 table #8: 209 bytes OK
+2021/11/19-23:54:39.030 6f4dc Delete type=0 #4
+2021/11/19-23:54:39.030 6f4dc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/11/19-23:54:39.030 6f4dc Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 134 : 1
+2021/11/19-23:54:39.030 6f4dc Compacting 1@1 + 1@2 files
+2021/11/19-23:54:39.035 6f4dc Generated table #9@1: 33 keys, 676 bytes
+2021/11/19-23:54:39.035 6f4dc Compacted 1@1 + 1@2 files => 676 bytes
+2021/11/19-23:54:39.050 6f4dc compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/11/19-23:54:39.050 6f4dc Delete type=2 #5
+2021/11/19-23:54:39.051 6f4dc Delete type=2 #8
+2021/11/19-23:54:39.051 6f4dd Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 134 : 1 .. (end); will stop at (end)

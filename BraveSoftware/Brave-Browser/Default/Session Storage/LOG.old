@@ -1,6 +1,21 @@
-2021/11/18-16:23:23.434 3 Reusing MANIFEST /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2021/11/18-16:23:23.439 3 Recovering log #555
-2021/11/18-16:23:23.441 3 Reusing old log /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000555.log 
-2021/11/18-21:54:47.087 53 Level-0 table #560: started
-2021/11/18-21:54:47.111 53 Level-0 table #560: 16275 bytes OK
-2021/11/18-21:54:47.117 53 Delete type=0 #555
+2021/11/19-17:24:11.666 3 Reusing MANIFEST /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2021/11/19-17:24:11.667 3 Recovering log #559
+2021/11/19-17:24:11.668 3 Reusing old log /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000559.log 
+2021/11/19-17:24:46.450 3 Level-0 table #563: started
+2021/11/19-17:24:46.455 3 Level-0 table #563: 16735 bytes OK
+2021/11/19-17:24:46.466 3 Delete type=0 #559
+2021/11/19-22:36:48.037 8d Level-0 table #565: started
+2021/11/19-22:36:48.045 8d Level-0 table #565: 20436 bytes OK
+2021/11/19-22:36:48.050 8d Delete type=0 #562
+2021/11/19-23:19:31.864 8d Level-0 table #567: started
+2021/11/19-23:19:31.870 8d Level-0 table #567: 13160 bytes OK
+2021/11/19-23:19:31.889 8d Delete type=0 #564
+2021/11/19-23:19:31.890 8d Compacting 4@0 + 1@1 files
+2021/11/19-23:19:31.923 8d Generated table #568@0: 18552 keys, 373406 bytes
+2021/11/19-23:19:31.923 8d Compacted 4@0 + 1@1 files => 373406 bytes
+2021/11/19-23:19:31.931 8d compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/11/19-23:19:31.932 8d Delete type=2 #557
+2021/11/19-23:19:31.932 8d Delete type=2 #560
+2021/11/19-23:19:31.932 8d Delete type=2 #563
+2021/11/19-23:19:31.932 8d Delete type=2 #565
+2021/11/19-23:19:31.933 8d Delete type=2 #567

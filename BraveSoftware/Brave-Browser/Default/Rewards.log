@@ -8471,3 +8471,111 @@
 [19 Nov 2021, 4:51:30.5 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
 [19 Nov 2021, 4:52:00.5 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
 [19 Nov 2021, 4:54:32.4 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 4:58:15.5 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 5:02:56.9 pm:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[19 Nov 2021, 5:02:56.9 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+--------------------------------------------------------------------------------
+[19 Nov 2021, 5:17:25.6 pm:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[19 Nov 2021, 5:17:26.2 pm:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[19 Nov 2021, 5:17:27.9 pm:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[19 Nov 2021, 5:17:28.5 pm:ERROR:ad_rewards.cc(73)] Failed to reconcile ad rewards due to invalid wallet
+[19 Nov 2021, 5:17:28.5 pm:ERROR:redeem_unblinded_payment_tokens.cc(62)] Failed to redeem unblinded payment tokens due to invalid wallet
+[19 Nov 2021, 5:17:29.0 pm:ERROR:refill_unblinded_tokens.cc(83)] Failed to refill unblinded tokens due to an invalid wallet
+--------------------------------------------------------------------------------
+[19 Nov 2021, 5:24:11.7 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 5:24:11.7 pm:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[19 Nov 2021, 5:24:14.7 pm:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[19 Nov 2021, 5:24:15.3 pm:ERROR:ad_rewards.cc(73)] Failed to reconcile ad rewards due to invalid wallet
+[19 Nov 2021, 5:24:15.3 pm:ERROR:redeem_unblinded_payment_tokens.cc(62)] Failed to redeem unblinded payment tokens due to invalid wallet
+[19 Nov 2021, 5:24:15.4 pm:ERROR:refill_unblinded_tokens.cc(83)] Failed to refill unblinded tokens due to an invalid wallet
+[19 Nov 2021, 5:24:43.7 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 5:31:35.2 pm:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[19 Nov 2021, 5:31:35.2 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 5:31:53.0 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 5:32:23.1 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 5:32:53.1 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 5:33:23.1 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 5:33:53.1 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 5:34:23.1 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 5:34:53.1 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 5:35:23.1 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 5:35:53.1 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 5:36:23.1 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 5:36:53.1 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 5:38:11.1 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 5:38:47.6 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 5:40:24.5 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 6:15:26.9 pm:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[19 Nov 2021, 6:15:26.9 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 6:16:40.8 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 7:05:36.1 pm:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[19 Nov 2021, 7:05:36.1 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 8:18:23.7 pm:ERROR:refill_unblinded_tokens.cc(83)] Failed to refill unblinded tokens due to an invalid wallet
+[19 Nov 2021, 8:33:03.9 pm:ERROR:publisher.cc(774)] Publisher info not found
+[19 Nov 2021, 8:34:26.5 pm:ERROR:publisher.cc(774)] Publisher info not found
+[19 Nov 2021, 8:47:10.6 pm:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[19 Nov 2021, 8:47:10.6 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 8:58:50.6 pm:ERROR:refill_unblinded_tokens.cc(83)] Failed to refill unblinded tokens due to an invalid wallet
+[19 Nov 2021, 9:01:57.1 pm:ERROR:refill_unblinded_tokens.cc(83)] Failed to refill unblinded tokens due to an invalid wallet
+[19 Nov 2021, 10:02:34.2 pm:ERROR:publisher.cc(774)] Publisher info not found
+[19 Nov 2021, 10:05:29.9 pm:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[19 Nov 2021, 10:05:29.9 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 10:07:28.8 pm:ERROR:publisher.cc(774)] Publisher info not found
+[19 Nov 2021, 10:08:49.5 pm:ERROR:publisher.cc(774)] Publisher info not found
+[19 Nov 2021, 10:09:35.0 pm:ERROR:publisher.cc(774)] Publisher info not found
+[19 Nov 2021, 10:10:30.6 pm:ERROR:publisher.cc(774)] Publisher info not found
+[19 Nov 2021, 10:11:20.3 pm:ERROR:publisher.cc(774)] Publisher info not found
+[19 Nov 2021, 10:15:02.4 pm:ERROR:publisher.cc(774)] Publisher info not found
+[19 Nov 2021, 10:39:43.9 pm:ERROR:publisher.cc(774)] Publisher info not found
+[19 Nov 2021, 11:04:33.2 pm:ERROR:publisher.cc(774)] Publisher info not found
+[19 Nov 2021, 11:15:19.4 pm:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[19 Nov 2021, 11:15:19.4 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:19:24.1 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:19:51.7 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:28:16.9 pm:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[19 Nov 2021, 11:28:16.9 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:45:51.8 pm:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[19 Nov 2021, 11:45:51.8 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:46:21.5 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:46:51.5 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:47:21.8 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:47:51.5 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:48:21.5 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:48:51.5 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:49:21.5 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:49:51.5 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:50:21.5 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:50:51.5 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:51:21.5 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:51:52.0 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:52:21.5 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:52:51.5 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:53:21.5 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:53:52.1 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:54:22.1 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:54:52.1 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:55:22.1 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:55:52.1 pm:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[19 Nov 2021, 11:55:52.1 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:56:22.1 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[19 Nov 2021, 11:56:52.1 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[20 Nov 2021, 12:04:07.0 am:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[20 Nov 2021, 12:04:08.1 am:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[20 Nov 2021, 12:05:14.0 am:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+--------------------------------------------------------------------------------
+[20 Nov 2021, 10:29:49.2 am:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[20 Nov 2021, 10:29:49.2 am:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[20 Nov 2021, 10:29:49.8 am:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[20 Nov 2021, 10:29:49.8 am:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[20 Nov 2021, 10:29:51.5 am:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[20 Nov 2021, 10:29:52.1 am:ERROR:ad_rewards.cc(73)] Failed to reconcile ad rewards due to invalid wallet
+[20 Nov 2021, 10:29:52.1 am:ERROR:redeem_unblinded_payment_tokens.cc(62)] Failed to redeem unblinded payment tokens due to invalid wallet
+[20 Nov 2021, 10:29:52.2 am:ERROR:refill_unblinded_tokens.cc(83)] Failed to refill unblinded tokens due to an invalid wallet
+[20 Nov 2021, 10:34:22.4 am:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[20 Nov 2021, 10:35:10.5 am:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[20 Nov 2021, 10:59:12.7 am:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[20 Nov 2021, 10:59:12.7 am:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[20 Nov 2021, 11:17:46.4 am:ERROR:refill_unblinded_tokens.cc(83)] Failed to refill unblinded tokens due to an invalid wallet
+[20 Nov 2021, 11:32:29.5 am:ERROR:publisher.cc(774)] Publisher info not found
+[20 Nov 2021, 11:41:17.6 am:ERROR:publisher.cc(774)] Publisher info not found
+[20 Nov 2021, 12:03:28.7 pm:ERROR:refill_unblinded_tokens.cc(83)] Failed to refill unblinded tokens due to an invalid wallet

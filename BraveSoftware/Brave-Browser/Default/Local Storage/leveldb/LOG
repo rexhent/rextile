@@ -1,25 +1,9 @@
-2021/11/19-16:50:59.942 6 Reusing MANIFEST /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2021/11/19-16:50:59.946 6 Recovering log #5590
-2021/11/19-16:50:59.947 6 Reusing old log /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/005590.log 
-2021/11/19-16:52:04.793 3 Level-0 table #5594: started
-2021/11/19-16:52:04.796 3 Level-0 table #5594: 33401 bytes OK
-2021/11/19-16:52:04.801 3 Delete type=0 #5590
-2021/11/19-16:55:04.822 3 Level-0 table #5596: started
-2021/11/19-16:55:04.826 3 Level-0 table #5596: 24556 bytes OK
-2021/11/19-16:55:04.831 3 Delete type=0 #5593
-2021/11/19-16:56:04.823 a Level-0 table #5598: started
-2021/11/19-16:56:04.828 a Level-0 table #5598: 16822 bytes OK
-2021/11/19-16:56:04.834 a Delete type=0 #5595
-2021/11/19-16:56:04.836 a Compacting 4@0 + 3@1 files
-2021/11/19-16:56:04.895 a Generated table #5599@0: 896 keys, 2304838 bytes
-2021/11/19-16:56:04.925 a Generated table #5600@0: 2813 keys, 2176456 bytes
-2021/11/19-16:56:04.942 a Generated table #5601@0: 3040 keys, 1008645 bytes
-2021/11/19-16:56:04.942 a Compacted 4@0 + 3@1 files => 5489939 bytes
-2021/11/19-16:56:04.946 a compacted to: files[ 0 3 1 0 0 0 0 ]
-2021/11/19-16:56:04.947 a Delete type=2 #5587
-2021/11/19-16:56:04.947 a Delete type=2 #5588
-2021/11/19-16:56:04.947 a Delete type=2 #5589
-2021/11/19-16:56:04.947 a Delete type=2 #5591
-2021/11/19-16:56:04.947 a Delete type=2 #5594
-2021/11/19-16:56:04.947 a Delete type=2 #5596
-2021/11/19-16:56:04.947 a Delete type=2 #5598
+2021/11/20-10:29:48.960 3 Reusing MANIFEST /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2021/11/20-10:29:48.966 3 Recovering log #5675
+2021/11/20-10:29:48.968 3 Reusing old log /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/005675.log 
+2021/11/20-10:30:00.704 3 Level-0 table #5682: started
+2021/11/20-10:30:00.708 3 Level-0 table #5682: 26348 bytes OK
+2021/11/20-10:30:00.713 3 Delete type=0 #5675
+2021/11/20-10:35:55.077 8 Level-0 table #5684: started
+2021/11/20-10:35:55.085 8 Level-0 table #5684: 33485 bytes OK
+2021/11/20-10:35:55.094 8 Delete type=0 #5681

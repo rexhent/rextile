@@ -17,14 +17,21 @@ curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install 
 
 omf install https://github.com/dracula/fish
 
+cd ~/.config
+git init
+git remote add origin https://gitlab.com/rexhent/rextile
+git fetch
+git checkout origin/main -b main
 
+--- OLD DONT USE
 mv ~/.config ~/.config1
 
-git clone https://github.com/rexhent/rex-bspwm ~/.config
+git clone https://gitlab.com/rexhent/rextile ~/.config
 
 cd ~/.config1
 
 cp -r . ~/.config
+---
 
 To set your resolution open arandr and set it to your preference.
 

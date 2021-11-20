@@ -1,6 +1,0 @@
-2021/11/13-10:58:47.173 1b303 Creating DB /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb since it was missing.
-2021/11/13-10:58:47.186 1b303 Reusing MANIFEST /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/11/13-10:59:19.263 ba9d Level-0 table #5: started
-2021/11/13-10:59:19.267 ba9d Level-0 table #5: 1947 bytes OK
-2021/11/13-10:59:19.277 ba9d Delete type=0 #3
-2021/11/13-10:59:19.277 ba9d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

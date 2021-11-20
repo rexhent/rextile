@@ -1,6 +1,0 @@
-2021/11/12-17:40:28.294 107f Creating DB /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_fireship.io_0.indexeddb.leveldb since it was missing.
-2021/11/12-17:40:28.302 107f Reusing MANIFEST /home/dhannah/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_fireship.io_0.indexeddb.leveldb/MANIFEST-000001
-2021/11/12-17:40:29.242 107f Level-0 table #5: started
-2021/11/12-17:40:29.244 107f Level-0 table #5: 1371 bytes OK
-2021/11/12-17:40:29.250 107f Delete type=0 #3
-2021/11/12-17:40:29.250 107f Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

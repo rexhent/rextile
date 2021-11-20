@@ -2,11 +2,7 @@ This is my bspwm (and qtile) config.
 
 ![Desktop](https://gitlab.com/rexhent/wm-pics/-/raw/b83e80ee8d03fc7fe4bc5ce5ca8ea923bacaadc4/rextile.png)
 
-Arch install:
-
-bspwm:
----
-sudo pacman -S bspwm rofi sxhkd polybar terminator lxappearance materia-gtk-theme papirus-icon-theme xorg-xsetroot
+# This expects xorg is already installed, you are on arch, and you have the paru AUR helper installed
 
 # Install qtile and other stuff
 ``` sh

@@ -6,7 +6,7 @@ This is my bspwm (and qtile) config.
 
 # Install qtile and other stuff
 ``` sh
-paru -S nitrogen dracula-gtk-theme nerd-fonts-ubuntu-mono qtile rofi terminator lxappearance-gtk3 papirus-icon-theme xorg-xsetroot dunst network-manager-applet volumeicon python lxsession picom emacs i3lock xorg-xrandr arandr alacritty fish starship exa
+paru -S nitrogen dracula-gtk-theme nerd-fonts-ubuntu-mono qtile rofi terminator lxappearance-gtk3 papirus-icon-theme xorg-xsetroot dunst network-manager-applet volumeicon python lxsession picom emacs i3lock xorg-xrandr arandr alacritty fish starship exa --noconfirm
 ```
 
 # Install fish configuration

@@ -6,11 +6,11 @@ This is my bspwm (and qtile) config.
 Arch install:
 
 bspwm:
-
+---
 sudo pacman -S bspwm rofi sxhkd polybar terminator lxappearance materia-gtk-theme papirus-icon-theme xorg-xsetroot
 
 qtile:
-
+---
 paru -S nitrogen dracula-gtk-theme nerd-fonts-ubuntu-mono qtile rofi terminator lxappearance-gtk3 papirus-icon-theme xorg-xsetroot dunst network-manager-applet volumeicon python lxsession picom emacs i3lock xorg-xrandr arandr alacritty fish starship exa
 
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
@@ -22,16 +22,6 @@ git init
 git remote add origin https://gitlab.com/rexhent/rextile
 git fetch
 git checkout origin/main -b main
-
---- OLD DONT USE
-mv ~/.config ~/.config1
-
-git clone https://gitlab.com/rexhent/rextile ~/.config
-
-cd ~/.config1
-
-cp -r . ~/.config
----
 
 To set your resolution open arandr and set it to your preference.
 
@@ -45,7 +35,9 @@ install doom emacs
 
 then:
 
-'export PATH=$PATH:~/.emacs.d/bin'
+git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
+~/.emacs.d/bin/doom install
+export PATH=$PATH:~/.emacs.d/bin
 
 configure ~/.doom.d/init.el
 

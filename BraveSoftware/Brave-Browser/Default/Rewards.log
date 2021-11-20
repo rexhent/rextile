@@ -8579,3 +8579,34 @@
 [20 Nov 2021, 11:32:29.5 am:ERROR:publisher.cc(774)] Publisher info not found
 [20 Nov 2021, 11:41:17.6 am:ERROR:publisher.cc(774)] Publisher info not found
 [20 Nov 2021, 12:03:28.7 pm:ERROR:refill_unblinded_tokens.cc(83)] Failed to refill unblinded tokens due to an invalid wallet
+[20 Nov 2021, 12:09:44.2 pm:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[20 Nov 2021, 12:09:44.2 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[20 Nov 2021, 12:12:14.8 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[20 Nov 2021, 12:41:20.9 pm:ERROR:refill_unblinded_tokens.cc(83)] Failed to refill unblinded tokens due to an invalid wallet
+[20 Nov 2021, 12:57:16.0 pm:ERROR:wallet.cc(260)] Parsing of brave wallet failed
+[20 Nov 2021, 12:57:16.0 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+--------------------------------------------------------------------------------
+[20 Nov 2021, 1:01:06.7 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[20 Nov 2021, 1:01:06.7 pm:ERROR:wallet.cc(255)] Parsing of brave wallet failed
+[20 Nov 2021, 1:01:06.7 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[20 Nov 2021, 1:01:07.2 pm:ERROR:wallet.cc(255)] Parsing of brave wallet failed
+[20 Nov 2021, 1:01:07.7 pm:ERROR:refill_unblinded_tokens.cc(76)] Failed to refill unblinded tokens due to an invalid wallet
+[20 Nov 2021, 1:01:07.8 pm:ERROR:ad_rewards.cc(67)] Failed to reconcile ad rewards due to invalid wallet
+[20 Nov 2021, 1:01:07.8 pm:ERROR:redeem_unblinded_payment_tokens.cc(55)] Failed to redeem unblinded payment tokens due to invalid wallet
+[20 Nov 2021, 1:01:07.8 pm:ERROR:refill_unblinded_tokens.cc(76)] Failed to refill unblinded tokens due to an invalid wallet
+[20 Nov 2021, 1:01:12.6 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[20 Nov 2021, 1:01:17.1 pm:ERROR:refill_unblinded_tokens.cc(76)] Failed to refill unblinded tokens due to an invalid wallet
+[20 Nov 2021, 1:01:17.8 pm:ERROR:refill_unblinded_tokens.cc(76)] Failed to refill unblinded tokens due to an invalid wallet
+[20 Nov 2021, 1:01:43.3 pm:ERROR:refill_unblinded_tokens.cc(76)] Failed to refill unblinded tokens due to an invalid wallet
+[20 Nov 2021, 1:01:52.0 pm:ERROR:state.cc(393)] Decryption failed for wallets.uphold
+[20 Nov 2021, 1:01:52.5 pm:ERROR:refill_unblinded_tokens.cc(76)] Failed to refill unblinded tokens due to an invalid wallet
+[20 Nov 2021, 1:02:21.1 pm:ERROR:refill_unblinded_tokens.cc(76)] Failed to refill unblinded tokens due to an invalid wallet
+[20 Nov 2021, 1:04:02.9 pm:ERROR:refill_unblinded_tokens.cc(76)] Failed to refill unblinded tokens due to an invalid wallet
+[20 Nov 2021, 1:04:14.0 pm:ERROR:refill_unblinded_tokens.cc(76)] Failed to refill unblinded tokens due to an invalid wallet
+[20 Nov 2021, 1:04:30.0 pm:ERROR:refill_unblinded_tokens.cc(76)] Failed to refill unblinded tokens due to an invalid wallet
+[20 Nov 2021, 1:09:03.2 pm:ERROR:refill_unblinded_tokens.cc(76)] Failed to refill unblinded tokens due to an invalid wallet
+[20 Nov 2021, 1:09:33.5 pm:ERROR:refill_unblinded_tokens.cc(76)] Failed to refill unblinded tokens due to an invalid wallet
+[20 Nov 2021, 1:10:03.3 pm:ERROR:refill_unblinded_tokens.cc(76)] Failed to refill unblinded tokens due to an invalid wallet
+[20 Nov 2021, 1:10:33.2 pm:ERROR:refill_unblinded_tokens.cc(76)] Failed to refill unblinded tokens due to an invalid wallet
+[20 Nov 2021, 1:11:03.3 pm:ERROR:refill_unblinded_tokens.cc(76)] Failed to refill unblinded tokens due to an invalid wallet
+[20 Nov 2021, 1:13:42.4 pm:ERROR:refill_unblinded_tokens.cc(76)] Failed to refill unblinded tokens due to an invalid wallet

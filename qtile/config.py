@@ -35,7 +35,7 @@ terminal = "kitty"
 launcher = "rofi -show drun"
 browser = "flatpak run org.mozilla.firefox"
 file_manager = "nemo"
-lock_screen = "i3lock -i /home/dhannah/.config/purple.png"
+lock_screen = "i3lock -i /home/dhannah/Downloads/desktop-backgrounds/nord-underwater.png"
 
 
 
@@ -79,6 +79,7 @@ keys = [
     Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
+    Key([mod], "Escape", lazy.spawn(lock_screen), desc="Lock the screen"),
     # Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
     Key([mod], "r", lazy.spawn(launcher), desc="Open app launcher"),
     Key([mod, "control"], "Return", lazy.spawn(file_manager), desc="Open File Manager"),
@@ -155,7 +156,7 @@ screens = [
                     },
                     name_transform=lambda name: name.upper(),
                 ),
-                widget.TextBox("default config", name="default"),
+                widget.TextBox("rextile config", name="default"),
                 widget.TextBox("Press &lt;M-r&gt; to spawn", foreground="#d75f5f"),
                 # NB Systray is incompatible with Wayland, consider using StatusNotifier instead
                 # widget.StatusNotifier(),

@@ -115,8 +115,9 @@ for i in groups:
     )
 
 layouts = [
-    layout.MonadTall(font = "JetBrains Mono", fontsize = 36, margin = 14),
-    # layout.Columns(border_focus_stack=["#d75f5f", "#8f3d3d"], border_width=4),
+    #layout.MonadTall(font = "JetBrains Mono", fontsize = 36, margin = 14),
+    layout.Columns(font = "JetBrains Mono", fontsize = 36, margin = 14, border_width= 4, border_focus = "e1acff"),
+    #layout.Columns(border_focus_stack=["#d75f5f", "#8f3d3d"], border_width=4),
     layout.Max(),
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2),

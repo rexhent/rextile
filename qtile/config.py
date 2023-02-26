@@ -206,7 +206,8 @@ auto_minimize = True
 # When using the Wayland backend, this can be used to configure input devices.
 wl_input_rules = None
 
-os.system("bash ~/.screenlayout/main.sh")
+#os.system("bash ~/.screenlayout/main.sh")
+os.system("bash ~/.screenlayout/4k-only.sh")
 
 
 # XXX: Gasp! We're lying here. In fact, nobody really uses or cares about this

@@ -135,9 +135,11 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font="JetBrains Mono",
-    fontsize=24,
+    font="Inter",
+    fontsize=32,
     padding=8,
+    #margin=10,
+    #padding_y=30,
     background='#2e3440',
 )
 extension_defaults = widget_defaults.copy()
@@ -147,7 +149,11 @@ screens = [
         top=bar.Bar(
             [   
                 widget.CurrentLayout(),
-                widget.GroupBox(),
+                widget.GroupBox(
+                    highlight_method='block',
+                    disable_drag='true',
+                    rounded='false'
+                ),
                 widget.Prompt(),
                 widget.WindowName(),
                 widget.Chord(

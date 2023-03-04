@@ -1,8 +1,29 @@
+
+Shell command(s):
 This is my bspwm (and qtile) config.
 
 ![Desktop](https://gitlab.com/rexhent/wm-pics/-/raw/b83e80ee8d03fc7fe4bc5ce5ca8ea923bacaadc4/rextile.png)
 
 # This expects xorg is already installed, you are on arch, and you have the paru AUR helper installed
+
+# Installation for Debian/Ubuntu
+
+``` sh
+sudo apt install python3 python3-pip libpangocairo-1.0-0 xserver-xorg python3-xcffib
+```
+
+``` sh
+python3 -m pip install cffi
+```
+
+``` sh
+python3 -m pip install --no-cache-dir cairocffi
+```
+
+``` sh
+python3 -m pip install qtile
+```
+
 
 # Install qtile and other stuff
 ``` sh

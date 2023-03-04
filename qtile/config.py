@@ -82,6 +82,7 @@ keys = [
     Key([mod], "Escape", lazy.spawn(lock_screen), desc="Lock the screen"),
     # Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
     Key([mod], "r", lazy.spawn(launcher), desc="Open app launcher"),
+    Key([mod], "p", lazy.spawn("dmenu_run"), desc="Open app launcher"),
     Key([mod, "control"], "Return", lazy.spawn(file_manager), desc="Open File Manager"),
     Key([mod, "shift"], "Return", lazy.spawn(browser), desc="Open Browser"),
     
@@ -124,7 +125,7 @@ layouts = [
     # layout.Stack(num_stacks=2),
     # layout.Bsp(),
     # layout.Matrix(),
-    # layout.MonadTall(), 
+    # layout.MonadTall(),
     #layout.Stack(num_stacks=2),
     # layout.MonadWide(),
     # layout.RatioTile(),

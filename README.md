@@ -9,7 +9,7 @@ This is my bspwm (and qtile) config.
 # Installation for Debian/Ubuntu
 
 ``` sh
-sudo apt install python3 python3-pip libpangocairo-1.0-0 xserver-xorg python3-xcffib
+sudo apt install python3 python3-pip libpangocairo-1.0-0 xserver-xorg python3-xcffib x11-xserver-utils rofi dmenu fonts-inter fonts-jetbrains-mono picom i3lock
 ```
 
 ``` sh
